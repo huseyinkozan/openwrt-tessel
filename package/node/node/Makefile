@@ -1,13 +1,12 @@
 include $(TOPDIR)/rules.mk
 
 PKG_NAME:=node
-PKG_VERSION:=v6.5.0
-# TODO : remove patch 010-node_6_5_0_uclib_execinfo.patch after 6.5.0
+PKG_VERSION:=v6.9.0
 PKG_RELEASE:=1
 
 PKG_SOURCE:=node-$(PKG_VERSION).tar.gz
 PKG_SOURCE_URL:=https://nodejs.org/dist/${PKG_VERSION}/
-PKG_SHA256SUM:=d7742558bb3331e41510d6e6f1f7b13c0527aecc00a63c3e05fcfd44427ff778
+PKG_SHA256SUM:=2e2657d2ece89782ca9e2cc0300f9119998e73382caa7ad2995ab81cc26ad923
 
 PKG_BUILD_PARALLEL:=1
 PKG_BUILD_DEPENDS:=
